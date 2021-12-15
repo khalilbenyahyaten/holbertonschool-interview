@@ -27,3 +27,4 @@ def rain(walls):
         x = light(l, r) - walls[i]
         res += x
     return(res)
+    
