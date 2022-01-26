@@ -89,7 +89,7 @@ child->n = parent->n;
 parent->n = Element;
 }
 /**
- * siftDown - Repair 
+ * siftDown - Repair
  * @parent: First element
  **/
 void siftDown(heap_t **parent)
