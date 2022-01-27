@@ -40,7 +40,7 @@ void heap(int *array, int n, size_t size, int i)
 	{
 		Swap(&array[i], &array[largest]);
 		print_array(array, size);
-		heapify(array, n, size, largest);
+		heap(array, n, size, largest);
 	}
 }
 
